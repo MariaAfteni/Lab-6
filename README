@@ -1,0 +1,8 @@
+
+-> Introduced the MVP design pattern:
+  - Model contains all the logic and the data manipulations;
+  - View  consists of methods that output the results;
+  - Presenter takes the changes made in Model and alters the View with the changes from the Model;
+-> Implemented Dependency Inversion by creating a interface for the MVP classes, so the low-level classes depend on
+the abstraction.
+-> Refined Single Responsibility
